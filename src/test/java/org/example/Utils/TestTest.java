@@ -47,4 +47,15 @@ class TestTest {
 
         assertNotEquals(expected, actual);
     }
+
+    @Test
+    void countVowels_shouldReturn2_whenGivenStringIsHallo()
+    {
+        String given = "Hallo";
+        int expected = 2;
+
+        int actual = org.example.Utils.Test.countVowels(given);
+
+        assertEquals(expected, actual);
+    }
 }

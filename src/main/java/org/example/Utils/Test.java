@@ -45,7 +45,21 @@ public class Test
 
     public static int countVowels(String text)
     {
-        return 0;
+        Character[] Vowels = {'a', 'e', 'i', 'o', 'u'};
+
+        int numOfVowels = 0;
+
+        for (int i = 0; i < text.toCharArray().length; i++)
+        {
+            for (int j = 0; j < Vowels.length; j++)
+            {
+                if (text.toCharArray()[i] == Vowels[j])
+                {
+                    numOfVowels += 1;
+                }
+            }
+        }
+        return numOfVowels;
     }
 }
 
