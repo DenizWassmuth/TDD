@@ -9,10 +9,10 @@ class TestTest {
 
     // Red -> Green -> Refactor (Prinzip eines TDD)
     @Test
-    void fizzBuzz_shouldReturnFizz_whenGivenNumberIs5() {
+    void fizzBuzz_shouldReturnBuzz_whenGivenNumberIs5() {
 
         //GIVEN
-        String expected = "Fizz";
+        String expected = "Buzz";
         int number = 5;
         //WHEN
         String actual = org.example.Utils.Test.fizzBuzz(number);
