@@ -1,6 +1,5 @@
 package org.example.Utils;
 
-
 /**
  *
  * Test – kurze Beschreibung
@@ -14,4 +13,9 @@ package org.example.Utils;
  */
 
 public class Test {
+
+    public static String fizzBuzz(int number) {}
+
 }
+
+
