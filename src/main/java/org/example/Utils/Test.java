@@ -14,6 +14,7 @@ package org.example.Utils;
 
 public class Test
 {
+    // FizzBuzz: druch 3 und 5 teilbar -> FizzBuzz, durch 3 teilbar -> Fizz, durch 5 teilbar -> Buzz, else -> Zahl
     public static String fizzBuzz(int number)
     {
         if (number % 3 == 0 && number % 5 == 0)
@@ -30,6 +31,21 @@ public class Test
         }
 
         return "" + number;
+    }
+
+    public static Character getFirstCharacter(String inputText)
+    {
+        if (inputText == null)
+        {
+            return null;
+        }
+
+        return inputText.charAt(0);
+    }
+
+    public static int countVowels(String text)
+    {
+        return 0;
     }
 }
 
