@@ -49,11 +49,15 @@ public class Test
 
         int numOfVowels = 0;
 
+
+
         for (int i = 0; i < text.toCharArray().length; i++)
         {
+            Character c = text.charAt(i);
+            c = Character.toLowerCase(c);
             for (int j = 0; j < Vowels.length; j++)
             {
-                if (text.toCharArray()[i] == Vowels[j])
+                if (c == Vowels[j])
                 {
                     numOfVowels += 1;
                 }

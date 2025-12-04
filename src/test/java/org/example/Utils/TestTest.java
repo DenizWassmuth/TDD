@@ -51,7 +51,7 @@ class TestTest {
     @Test
     void countVowels_shouldReturn2_whenGivenStringIsHallo()
     {
-        String given = "Hallo";
+        String given = "HAllo";
         int expected = 2;
 
         int actual = org.example.Utils.Test.countVowels(given);
