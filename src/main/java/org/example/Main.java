@@ -12,5 +12,5 @@ public class Main {
 
     // continuous Integration
     // -> plugin welches das Projekt in GitHub packt und ausführt (testet)
-    // -> nütz vor allem der Sichtbarkeit für andere ob der Code funktionier toder nicht
+    // -> nütz vor allem der Sichtbarkeit für andere ob der Code funktioniert oder nicht
 }
